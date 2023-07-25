@@ -11,7 +11,7 @@ services:
       MYSQL_USER: admin
       MYSQL_PASSWORD: admin
     ports:
-      - "3306:3306"  # Mapear a porta 3306 do contêiner para a porta 3306 do host (0.0.0.0)
+      - "3306:3306"  
     volumes:
       - D:\AAS-DB:/var/lib/mysql
 
